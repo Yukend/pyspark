@@ -1,0 +1,201 @@
+medicine_id,medicine_name,manufacturer,dosage_form,strength,unit,quantity,price,expiry_date
+MED101,Oxitonex,Nexus BioHealth,Powder,43.27,400mg,856,471.18,2024-05-14
+MED177,ImmunoPlus,GenoWave Pharmaceuticals,Injection,58.2,500mg,944,859.83,2024-02-01
+MED293,CardioPro,BioVista Research,Liquids,16.89,500mg,278,634.46,2024-03-09
+MED135,ImmunoPro,MedicoTech Pharmaceuticals,Powder,15.73,300mg,184,397.43,2024-01-11
+MED171,PediaMax,Apex Cure Systems,Powder,76.24,100mg,4,147.1,2024-02-24
+MED281,FlexiCare,BioGenX Health Solutions,Liquids,35.97,400mg,300,247.64,2024-07-17
+MED210,Galafix,BioVista Research,Tablet,8.93,500mg,1,628.07,2024-05-28
+MED261,Ceflinex,Apex Cure Systems,Liquids,37.41,500mg,57,169.58,2024-06-27
+MED113,Inflamex,MedLifex Therapeutics,Liquids,52.31,300mg,362,716.43,2024-08-12
+MED157,SleepMax,LifeQuest Pharmaceuticals,Tablet,44.86,400mg,651,806.99,2024-08-09
+MED210,Ibonix,NovaCure PharmaSys,Liquids,79.51,500mg,524,545.77,2024-05-22
+MED217,Monoflex,Zenith Medix Corp,Tonic,32.73,400mg,217,771.63,2024-06-16
+MED184,Lycinex,BioVista Research,Tablet,36.73,100mg,324,146.89,2024-07-09
+MED111,OsteoMax,LifeQuest Pharmaceuticals,Tonic,27.34,500mg,26,680.58,2024-09-24
+MED271,Vaxiwave,SynthoMed Solutions,Powder,16.86,400mg,898,696.81,2024-04-03
+MED161,Glucoplus,Quantum BioTech,Tonic,84.52,300mg,776,492.1,2024-07-22
+MED239,Dexicilin,BioGenX Health Solutions,Tonic,4.45,300mg,962,931.71,2024-09-03
+MED187,FlexiMax,MedicoTech Pharmaceuticals,Tonic,31.86,100mg,932,482.57,2024-02-25
+MED115,Lymedex,Excela PharmaTech,Powder,69.31,500mg,75,950.1,2024-01-14
+MED118,Nurozone,HealSynth Labs,Powder,6.49,100mg,806,764.69,2024-09-17
+MED232,Oxyflow,Precision Heal Sciences,Tablet,64.84,500mg,307,696.02,2024-03-06
+MED243,NerveGuard,SynthoMed Solutions,Liquids,24.71,300mg,351,602.62,2024-02-02
+MED212,Yumoxin,EpiGenix BioScience,Liquids,2.79,200mg,437,543.0,2024-01-07
+MED260,Serranex,MedLifex Therapeutics,Powder,28.65,200mg,160,336.42,2024-02-06
+MED231,Quikfix,Precision Heal Sciences,Injection,75.92,300mg,907,367.41,2024-03-24
+MED100,Monoflex,HealSynth Labs,Tablet,34.64,400mg,718,691.46,2024-01-27
+MED132,RespiraPlus,LifeQuest Pharmaceuticals,Tonic,5.99,100mg,240,124.08,2024-02-29
+MED122,Fibrinex,GenoWave Pharmaceuticals,Liquids,79.27,400mg,824,653.86,2024-09-11
+MED183,Nurozone,Apex Cure Systems,Tablet,66.31,500mg,839,702.42,2024-07-31
+MED221,Kalmoxin,BioGenX Health Solutions,Liquids,80.52,200mg,515,317.42,2024-05-03
+MED153,Virexin,ProMed Innovations,Injection,78.09,500mg,251,719.52,2024-10-17
+MED247,Primexin,Quantum BioTech,Powder,51.85,100mg,281,884.0,2024-01-14
+MED173,Epirox,Nexus BioHealth,Tablet,38.8,400mg,851,450.32,2024-08-19
+MED171,NeuroRelax,EpiGenix BioScience,Tonic,46.55,300mg,97,525.28,2024-09-01
+MED146,Tranquility,Precision Heal Sciences,Tonic,16.67,500mg,582,533.92,2024-04-26
+MED286,Lymedex,EpiGenix BioScience,Liquids,83.15,500mg,642,344.61,2024-01-23
+MED150,JointPlus,Precision Heal Sciences,Tonic,43.41,300mg,901,405.0,2024-01-07
+MED280,ImmunoPlus,BioGenX Health Solutions,Injection,4.22,400mg,960,349.31,2024-06-25
+MED106,PulmoVista,SynthoMed Solutions,Powder,4.82,200mg,467,390.53,2024-08-20
+MED177,Xalitrex,GenoWave Pharmaceuticals,Powder,32.6,100mg,297,399.05,2024-09-30
+MED209,PediaVita,Apex Cure Systems,Powder,75.21,200mg,985,447.07,2024-02-18
+MED228,PediaRelief,HealSynth Labs,Liquids,62.08,500mg,912,478.93,2024-10-09
+MED146,Juvadex,Precision Heal Sciences,Powder,67.69,500mg,866,729.84,2024-01-29
+MED200,PulmoVista,BioGenX Health Solutions,Tonic,65.94,100mg,792,492.31,2024-04-17
+MED297,Keftrin,SynthoMed Solutions,Tonic,34.23,500mg,383,129.83,2024-06-23
+MED236,Tranoxin,EpiGenix BioScience,Powder,2.11,500mg,147,378.47,2024-01-20
+MED270,Vaxiwave,NovaCure PharmaSys,Tablet,59.47,100mg,501,294.14,2024-01-05
+MED293,CardioWell,Quantum BioTech,Tonic,15.7,400mg,86,472.47,2024-08-26
+MED279,Uricinol,BioVista Research,Powder,54.12,100mg,701,833.06,2024-09-25
+MED159,Dermacure,NovoPharma Industries,Tablet,50.68,400mg,749,895.05,2024-08-08
+MED129,Oxyclix,LifeQuest Pharmaceuticals,Tonic,70.93,400mg,960,173.65,2024-03-09
+MED123,Voltabex,HealSynth Labs,Injection,4.97,400mg,252,26.55,2024-04-09
+MED135,Xenalite,VitalMed Labs,Tablet,97.4,300mg,214,42.79,2024-01-31
+MED117,Ibonex,NovaCure PharmaSys,Tablet,78.15,300mg,280,103.1,2023-12-28
+MED264,Juvanol,HealSynth Labs,Injection,72.84,200mg,910,541.5,2024-01-02
+MED192,VitaFuel,MedLifex Therapeutics,Liquids,20.27,300mg,24,551.93,2024-04-03
+MED134,Mytexin,Quantum BioTech,Powder,64.55,400mg,675,201.75,2024-10-30
+MED256,Heliway,GenoWave Pharmaceuticals,Injection,55.22,300mg,466,873.46,2024-05-17
+MED168,DigestaMax,OmniCare Innovations,Injection,6.6,200mg,336,268.71,2024-07-19
+MED242,Virexin,SynthoMed Solutions,Injection,27.6,300mg,791,67.45,2024-02-02
+MED216,Zynoxin,VitalMed Labs,Liquids,76.11,400mg,236,743.84,2024-09-17
+MED238,Epirox,GenoWave Pharmaceuticals,Liquids,60.89,300mg,131,185.86,2024-10-11
+MED263,AllerGuard,BioVista Research,Tablet,21.46,100mg,977,804.87,2024-03-05
+MED203,Zomarin,Precision Heal Sciences,Tonic,70.4,200mg,980,644.72,2024-02-11
+MED209,Zylite,SynthoMed Solutions,Powder,30.68,300mg,149,540.52,2024-01-15
+MED186,Gastrocalm,BioGenX Health Solutions,Tablet,86.34,300mg,102,644.9,2024-08-31
+MED277,ImmunoMax,ProMed Innovations,Tablet,47.35,500mg,731,218.25,2024-01-25
+MED133,Uricinol,MedicoTech Pharmaceuticals,Liquids,36.51,300mg,626,273.73,2024-07-02
+MED149,Inflamex,NovaCure PharmaSys,Injection,58.61,500mg,357,209.02,2024-06-15
+MED180,Taziplex,BioGenX Health Solutions,Injection,37.17,300mg,335,904.9,2024-03-05
+MED138,Uroxid,Zenith Medix Corp,Tablet,80.14,200mg,295,256.15,2024-02-08
+MED133,JointEase,Apex Cure Systems,Liquids,6.22,200mg,301,452.97,2024-04-01
+MED195,RespiraEase,GenoWave Pharmaceuticals,Tonic,6.9,200mg,249,16.68,2024-06-17
+MED161,NutaVita,Apex Cure Systems,Injection,66.92,200mg,750,18.83,2023-12-26
+MED133,Viozex,MedLifex Therapeutics,Powder,75.79,200mg,259,583.18,2024-01-28
+MED204,Juvanol,Quantum BioTech,Powder,71.73,200mg,21,874.59,2024-03-27
+MED184,Solvadex,EpiGenix BioScience,Injection,57.92,400mg,109,337.44,2024-08-31
+MED153,Prazical,Zenith Medix Corp,Tablet,68.15,300mg,907,735.94,2024-04-22
+MED225,Monotriptan,Nexus BioHealth,Tablet,11.76,100mg,30,647.88,2024-07-13
+MED205,Prazical,EpiGenix BioScience,Injection,35.7,300mg,874,483.18,2024-10-17
+MED104,NervePlus,SynthoMed Solutions,Tonic,26.59,100mg,362,382.1,2024-11-04
+MED205,NerveEase,HealSynth Labs,Liquids,64.6,100mg,447,63.38,2024-10-31
+MED247,Zylite,LifeQuest Pharmaceuticals,Injection,56.39,400mg,197,955.71,2024-04-29
+MED105,Pradoxol,Quantum BioTech,Tablet,47.02,300mg,639,143.11,2024-07-06
+MED185,VitaPlus,GenoWave Pharmaceuticals,Injection,87.3,100mg,288,928.78,2024-02-17
+MED208,Ceflodox,Excela PharmaTech,Powder,21.08,300mg,495,972.12,2024-11-04
+MED269,Tranquility,BioGenX Health Solutions,Tonic,37.35,300mg,196,401.93,2024-07-26
+MED261,Kalmoxin,LifeQuest Pharmaceuticals,Injection,9.64,500mg,716,244.92,2024-05-03
+MED121,Oxyclix,BioGenX Health Solutions,Powder,40.94,300mg,315,969.66,2024-04-30
+MED298,JointPlus,Precision Heal Sciences,Powder,85.99,400mg,22,103.44,2024-05-06
+MED169,Ibonix,EpiGenix BioScience,Liquids,36.87,200mg,737,503.99,2024-10-03
+MED278,Biotical,HealSynth Labs,Injection,50.55,400mg,194,543.93,2024-03-28
+MED284,UroShield,EpiGenix BioScience,Tablet,1.24,400mg,818,74.45,2024-07-04
+MED290,RespiraCure,VitalMed Labs,Tablet,22.57,100mg,470,745.21,2024-10-09
+MED148,Solvadex,MedLifex Therapeutics,Tablet,18.28,200mg,372,641.35,2024-05-01
+MED104,SleepEase,Nexus BioHealth,Powder,69.89,500mg,473,850.37,2024-01-06
+MED128,Erythrin,NovoPharma Industries,Tablet,14.04,500mg,857,603.32,2024-03-28
+MED288,Ceframed,Excela PharmaTech,Liquids,11.02,500mg,719,424.57,2024-07-13
+MED232,CardioMax,NovoPharma Industries,Powder,62.67,300mg,382,721.03,2024-01-14
+MED247,Nuprinol,BioVista Research,Powder,60.18,100mg,44,478.18,2024-09-28
+MED248,Serranex,BioVista Research,Tonic,51.09,100mg,548,931.42,2024-01-24
+MED161,Bioterix,ProMed Innovations,Tablet,36.85,500mg,167,11.71,2024-11-20
+MED193,Biotical,MedicoTech Pharmaceuticals,Tablet,64.42,200mg,511,518.77,2024-02-07
+MED211,Juvadex,NovoPharma Industries,Injection,30.79,300mg,10,860.73,2024-04-17
+MED274,FlexiMax,Excela PharmaTech,Powder,56.41,400mg,683,917.61,2024-04-16
+MED202,Radoxin,EpiGenix BioScience,Tonic,5.82,100mg,671,571.37,2024-08-13
+MED152,VitaGlow,Excela PharmaTech,Powder,1.08,300mg,509,613.34,2024-11-16
+MED151,Ventrex,Zenith Medix Corp,Powder,40.18,400mg,646,121.5,2024-04-08
+MED182,Epirox,NovaCure PharmaSys,Liquids,97.1,200mg,13,15.43,2024-04-29
+MED227,Fibrinex,GenoWave Pharmaceuticals,Powder,23.18,100mg,345,108.76,2024-10-22
+MED172,Epitec,OmniCare Innovations,Liquids,1.06,200mg,889,189.41,2024-06-27
+MED177,Bioterix,Excela PharmaTech,Tablet,30.56,300mg,525,219.07,2023-12-28
+MED246,Proxidine,OmniCare Innovations,Injection,43.94,300mg,510,111.53,2024-04-28
+MED137,DigestiMax,GenoWave Pharmaceuticals,Injection,63.88,400mg,864,68.53,2024-03-13
+MED211,Juvamed,BioGenX Health Solutions,Tablet,20.15,400mg,536,929.18,2024-02-21
+MED189,PulmoVista,EpiGenix BioScience,Liquids,1.8,200mg,841,607.8,2024-01-19
+MED140,Mytexin,BioGenX Health Solutions,Powder,7.33,500mg,945,541.05,2024-07-19
+MED208,Dexalin,BioVista Research,Injection,50.58,500mg,520,696.76,2024-02-06
+MED207,DigestiPro,Quantum BioTech,Liquids,75.88,100mg,557,136.77,2024-06-21
+MED129,AllerGuard,EpiGenix BioScience,Powder,22.44,400mg,735,813.39,2024-03-16
+MED234,Dermacure,EpiGenix BioScience,Tablet,71.26,400mg,362,762.83,2024-02-11
+MED194,Cardioflux,Precision Heal Sciences,Tablet,89.93,500mg,554,232.03,2024-07-23
+MED158,Helidox,Zenith Medix Corp,Liquids,49.17,300mg,995,269.08,2024-07-04
+MED198,Tranoxin,Nexus BioHealth,Powder,29.13,300mg,350,314.24,2024-08-31
+MED295,GastroCare,MedicoTech Pharmaceuticals,Powder,32.17,200mg,472,706.53,2024-05-22
+MED239,Remoxin,HealSynth Labs,Liquids,67.36,100mg,409,197.3,2024-01-21
+MED271,OculoMax,Apex Cure Systems,Injection,19.9,100mg,992,120.39,2024-09-01
+MED245,GastroCare,MedicoTech Pharmaceuticals,Powder,16.64,400mg,435,649.32,2024-11-11
+MED185,Taziplex,Precision Heal Sciences,Injection,33.04,300mg,727,520.68,2023-12-27
+MED151,Nuprinol,VitalMed Labs,Tablet,58.92,200mg,170,951.05,2024-02-05
+MED245,Nurodex,GenoWave Pharmaceuticals,Tablet,83.0,400mg,631,439.26,2024-08-15
+MED201,DigestiCare,BioVista Research,Injection,69.24,400mg,950,850.48,2024-02-03
+MED166,NutaVita,HealSynth Labs,Liquids,78.61,200mg,586,276.05,2024-04-12
+MED284,Helidox,OmniCare Innovations,Injection,80.95,100mg,465,982.74,2024-10-01
+MED283,Fibrocal,HealSynth Labs,Injection,14.55,500mg,168,68.46,2024-08-27
+MED172,Amixotin,Nexus BioHealth,Injection,88.06,400mg,459,813.4,2024-07-01
+MED156,RespiraEase,Precision Heal Sciences,Tonic,83.99,500mg,411,308.44,2024-04-26
+MED242,PediaMax,BioGenX Health Solutions,Tablet,54.43,100mg,463,252.36,2024-07-06
+MED130,Nurozone,Precision Heal Sciences,Tablet,86.52,300mg,185,417.53,2024-04-27
+MED248,Viozex,GenoWave Pharmaceuticals,Injection,85.89,100mg,966,213.21,2024-11-02
+MED136,OsteoMax,HealSynth Labs,Tablet,69.8,100mg,212,591.55,2024-07-31
+MED189,Ibrofen,LifeQuest Pharmaceuticals,Injection,39.88,300mg,957,132.86,2024-05-17
+MED132,GastroPlus,ProMed Innovations,Powder,84.47,500mg,615,813.33,2024-07-26
+MED279,Zolamed,LifeQuest Pharmaceuticals,Tonic,81.11,100mg,630,940.87,2024-11-01
+MED279,Solvadex,BioGenX Health Solutions,Powder,79.68,200mg,991,412.45,2024-07-05
+MED191,Oxibex,Apex Cure Systems,Tablet,24.65,500mg,631,423.88,2024-06-17
+MED243,Kalmoxin,Apex Cure Systems,Liquids,93.83,500mg,192,869.13,2024-04-22
+MED129,Viozex,ProMed Innovations,Powder,38.3,400mg,210,568.3,2024-09-15
+MED295,NeuroRelax,Precision Heal Sciences,Tonic,93.38,500mg,394,329.29,2024-08-14
+MED249,Maxifex,Zenith Medix Corp,Tonic,32.94,500mg,83,396.74,2024-07-08
+MED119,DermaRestore,MedLifex Therapeutics,Powder,7.66,200mg,547,343.35,2024-01-22
+MED259,OculoPlus,ProMed Innovations,Tablet,94.47,300mg,990,821.71,2024-06-15
+MED137,Vaxiwave,VitalMed Labs,Tonic,65.61,400mg,325,951.47,2024-06-21
+MED123,Lymedex,SynthoMed Solutions,Tablet,46.86,400mg,359,174.5,2024-03-10
+MED133,Tranoxin,ProMed Innovations,Injection,66.07,200mg,498,123.84,2024-05-08
+MED269,Furoxidone,Nexus BioHealth,Injection,82.77,200mg,882,862.27,2024-01-16
+MED206,SleepMax,LifeQuest Pharmaceuticals,Tablet,19.62,500mg,308,423.75,2024-07-11
+MED170,OculoPlus,BioVista Research,Injection,34.6,100mg,735,442.96,2024-03-13
+MED223,Cardioflux,Precision Heal Sciences,Tonic,61.66,100mg,278,598.27,2024-07-13
+MED263,OptiVitale,ProMed Innovations,Tonic,2.45,100mg,598,196.51,2024-05-14
+MED249,Fibronex,OmniCare Innovations,Injection,87.1,100mg,495,194.95,2024-02-08
+MED175,VitaMax,GenoWave Pharmaceuticals,Liquids,64.95,500mg,960,701.62,2024-05-10
+MED198,Ceframed,SynthoMed Solutions,Powder,36.27,500mg,686,928.03,2024-09-21
+MED131,Ventrex,Apex Cure Systems,Tonic,62.84,400mg,629,355.13,2024-11-04
+MED213,Tranoxin,MedLifex Therapeutics,Injection,55.39,500mg,219,259.81,2024-06-24
+MED161,DigestiMax,NovaCure PharmaSys,Tonic,18.93,400mg,839,124.19,2024-04-07
+MED297,ImmunoMax,HealSynth Labs,Tablet,1.92,300mg,540,491.69,2024-06-07
+MED110,Erythrin,ProMed Innovations,Powder,72.57,500mg,912,802.36,2024-08-13
+MED211,Amixotin,EpiGenix BioScience,Powder,10.73,300mg,789,354.16,2024-10-23
+MED191,AllerGuard,Apex Cure Systems,Tablet,59.48,400mg,123,313.03,2024-10-25
+MED131,Levadose,MedLifex Therapeutics,Powder,2.73,500mg,607,380.18,2024-06-04
+MED295,ImmunoMax,GenoWave Pharmaceuticals,Tablet,25.88,500mg,656,975.62,2024-06-07
+MED124,Monotriptan,SynthoMed Solutions,Liquids,78.45,400mg,571,896.41,2024-08-07
+MED146,Oxyflow,MedicoTech Pharmaceuticals,Tonic,55.95,100mg,145,771.62,2024-03-10
+MED100,Dexicilin,Quantum BioTech,Liquids,31.18,300mg,879,537.85,2024-02-05
+MED153,CardioWell,MedLifex Therapeutics,Liquids,24.98,100mg,652,934.88,2024-08-06
+MED233,ImmunoMax,NovoPharma Industries,Tonic,27.38,500mg,14,390.44,2024-05-22
+MED286,Erythrin,SynthoMed Solutions,Powder,66.75,300mg,395,934.21,2024-06-26
+MED248,Serranex,HealSynth Labs,Liquids,86.26,300mg,929,548.2,2024-08-11
+MED209,PediaGlo,Apex Cure Systems,Powder,60.04,400mg,485,803.23,2024-05-26
+MED210,CardioGuard,VitalMed Labs,Tablet,68.29,200mg,617,807.08,2024-01-16
+MED148,Radoxin,LifeQuest Pharmaceuticals,Tonic,26.89,200mg,60,405.32,2024-01-16
+MED146,Quinomed,Apex Cure Systems,Tonic,41.63,400mg,279,897.48,2024-04-30
+MED256,TranquilMax,HealSynth Labs,Powder,65.48,500mg,418,817.98,2024-03-06
+MED238,Pradoxol,Precision Heal Sciences,Injection,29.99,400mg,485,646.94,2024-06-08
+MED225,Neopril,LifeQuest Pharmaceuticals,Tablet,90.51,200mg,364,506.29,2024-04-07
+MED223,OptiVitale,VitalMed Labs,Powder,91.26,100mg,580,990.27,2024-06-13
+MED190,Keftrin,MedLifex Therapeutics,Powder,32.49,100mg,437,486.07,2024-02-16
+MED234,SleepEase,ProMed Innovations,Injection,49.98,300mg,561,322.69,2024-10-24
+MED198,RespiraEase,GenoWave Pharmaceuticals,Liquids,61.29,300mg,400,15.81,2024-01-03
+MED105,RespiraCure,Precision Heal Sciences,Injection,19.22,300mg,320,926.46,2024-11-03
+MED205,Gastrocalm,Nexus BioHealth,Liquids,60.84,400mg,203,86.72,2024-08-10
+MED159,PediaPlus,Zenith Medix Corp,Powder,68.89,400mg,712,125.47,2024-07-13
+MED260,OptiVitale,Excela PharmaTech,Tablet,21.72,100mg,885,135.52,2023-12-30
+MED133,JointFlex,HealSynth Labs,Powder,71.18,300mg,632,610.54,2024-09-17
+MED275,CardioPlus,BioVista Research,Powder,2.49,200mg,296,427.72,2024-07-08
+MED243,Prazical,GenoWave Pharmaceuticals,Injection,6.6,300mg,767,821.87,2024-08-27
+MED232,SleepMax,Precision Heal Sciences,Tablet,79.49,400mg,175,353.03,2024-03-11
+MED204,DigestiCare,EpiGenix BioScience,Injection,84.82,100mg,200,667.42,2024-09-06
+MED160,DermaMax,BioVista Research,Injection,47.9,200mg,938,251.94,2024-08-24
