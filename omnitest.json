@@ -1,0 +1,1013 @@
+{
+    "parser_settings": {
+        "version": "omni.2.1",
+        "file_format_type": "edi"
+    },
+    "file_declaration": {
+        "segment_delimiter": "\n",
+        "element_delimiter": "|",
+        "component_delimiter": "^",
+        "segment_declarations": [
+            {
+                "min": 0,
+                "max": -1,
+                "is_target": true,
+                "name": "Message-header",
+                "type": "segment_group",
+                "child_segments": [
+                    {
+                        "name": "MSH",
+                        "min": 1,
+                        "max": 1,
+                        "elements": [
+                            {
+                                "name": "encoding_characters",
+                                "index": 1
+                            },
+                            {
+                                "name": "sending_application",
+                                "index": 2
+                            },
+                            {
+                                "name": "sending_facility",
+                                "index": 3
+                            },
+                            {
+                                "name": "receiving_application",
+                                "index": 4
+                            },
+                            {
+                                "name": "receiving_facility",
+                                "index": 5
+                            },
+                            {
+                                "name": "date_time_of_message",
+                                "index": 6
+                            },
+                            {
+                                "name": "security",
+                                "index": 7
+                            },
+                            {
+                                "name": "message_type",
+                                "index": 8,
+                                "component_index": 1
+                            },
+                            {
+                                "name": "message_trigger_event",
+                                "index": 8,
+                                "component_index": 2
+                            },
+                            {
+                                "name": "message_control_id",
+                                "index": 9
+                            },
+                            {
+                                "name": "processing_id",
+                                "index": 10
+                            },
+                            {
+                                "name": "version_id",
+                                "index": 11
+                            },
+                            {
+                                "name": "sequence_number",
+                                "index": 12
+                            },
+                            {
+                                "name": "continuation_pointer",
+                                "index": 13
+                            },
+                            {
+                                "name": "accept_acknowledgment_type",
+                                "index": 14
+                            },
+                            {
+                                "name": "application_acknowledgment_type",
+                                "index": 15
+                            },
+                            {
+                                "name": "country_code",
+                                "index": 16
+                            },
+                            {
+                                "name": "character_set",
+                                "index": 17
+                            }
+                        ]
+                    },
+                    {
+                        "name": "UAC",
+                        "min": 0,
+                        "max": 1,
+                        "elements": [
+                            {
+                                "name": "user_authentication_credential_type_code",
+                                "index": 1
+                            },
+                            {
+                                "name": "user_authentication_credential",
+                                "index": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EVN",
+                        "min": 1,
+                        "max": 1,
+                        "elements": [
+                            {
+                                "name": "event_type_code",
+                                "index": 1
+                            },
+                            {
+                                "name": "recorded_date_time",
+                                "index": 2
+                            },
+                            {
+                                "name": "date_time_planned_event",
+                                "index": 3
+                            },
+                            {
+                                "name": "event_reason_code",
+                                "index": 4
+                            },
+                            {
+                                "name": "operator_id",
+                                "index": 5
+                            },
+                            {
+                                "name": "event_occurred",
+                                "index": 6
+                            },
+                            {
+                                "name": "event_facility",
+                                "index": 7
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PID",
+                        "min": 1,
+                        "max": 1,
+                        "elements": [
+                            {
+                                "name": "set_id_pid",
+                                "index": 1
+                            },
+                            {
+                                "name": "patient_id_external_id",
+                                "index": 2
+                            },
+                            {
+                                "name": "patient_id_internal_id",
+                                "index": 3
+                            },
+                            {
+                                "name": "alternate_patient_id_pid",
+                                "index": 4
+                            },
+                            {
+                                "name": "patient_name",
+                                "index": 5
+                            },
+                            {
+                                "name": "mothers_maiden_name",
+                                "index": 6
+                            },
+                            {
+                                "name": "date_time_of_birth",
+                                "index": 7
+                            },
+                            {
+                                "name": "sex",
+                                "index": 8
+                            },
+                            {
+                                "name": "patient_alias",
+                                "index": 9
+                            },
+                            {
+                                "name": "race",
+                                "index": 10
+                            },
+                            {
+                                "name": "patient_address",
+                                "index": 11
+                            },
+                            {
+                                "name": "county_code",
+                                "index": 12
+                            },
+                            {
+                                "name": "phone_number_home",
+                                "index": 13
+                            },
+                            {
+                                "name": "phone_number_business",
+                                "index": 14
+                            },
+                            {
+                                "name": "primary_language",
+                                "index": 15
+                            },
+                            {
+                                "name": "marital_status",
+                                "index": 16
+                            },
+                            {
+                                "name": "religion",
+                                "index": 17
+                            },
+                            {
+                                "name": "patient_account_number",
+                                "index": 18
+                            },
+                            {
+                                "name": "ssn_number_patient",
+                                "index": 19
+                            },
+                            {
+                                "name": "drivers_license_number_patient",
+                                "index": 20
+                            },
+                            {
+                                "name": "mothers_identifier",
+                                "index": 21
+                            },
+                            {
+                                "name": "ethnic_group",
+                                "index": 22
+                            },
+                            {
+                                "name": "birth_place",
+                                "index": 23
+                            },
+                            {
+                                "name": "multiple_birth_indicator",
+                                "index": 24
+                            },
+                            {
+                                "name": "birth_order",
+                                "index": 25
+                            },
+                            {
+                                "name": "citizenship",
+                                "index": 26
+                            },
+                            {
+                                "name": "veterans_military_status",
+                                "index": 27
+                            },
+                            {
+                                "name": "nationality_code",
+                                "index": 28
+                            },
+                            {
+                                "name": "patient_death_date_time",
+                                "index": 29
+                            },
+                            {
+                                "name": "patient_death_indicator",
+                                "index": 30
+                            },
+                            {
+                                "name": "identity_unknown_indicator",
+                                "index": 31
+                            },
+                            {
+                                "name": "identity_reliability_code",
+                                "index": 32
+                            },
+                            {
+                                "name": "last_update_date_time",
+                                "index": 33
+                            },
+                            {
+                                "name": "last_update_facility",
+                                "index": 34
+                            },
+                            {
+                                "name": "species_code",
+                                "index": 35
+                            },
+                            {
+                                "name": "breed_code",
+                                "index": 36
+                            },
+                            {
+                                "name": "strain",
+                                "index": 37
+                            },
+                            {
+                                "name": "production_class_code",
+                                "index": 38
+                            }
+                        ]
+                    },
+                    {
+                        "name": "next_of_kin",
+                        "type": "segment_group",
+                        "child_segments": [
+                            {
+                                "name": "NK1",
+                                "min": 1,
+                                "max": 1,
+                                "elements": [
+                                    {
+                                        "name": "set_id",
+                                        "index": 1
+                                    },
+                                    {
+                                        "name": "family_name",
+                                        "index": 2,
+                                        "component_index": 1
+                                    },
+                                    {
+                                        "name": "given_name",
+                                        "index": 2,
+                                        "component_index": 2
+                                    },
+                                    {
+                                        "name": "middle_initials",
+                                        "index": 2,
+                                        "component_index": 3
+                                    },
+                                    {
+                                        "name": "prefix",
+                                        "index": 2,
+                                        "component_index": 4
+                                    },
+                                    {
+                                        "name": "suffix",
+                                        "index": 2,
+                                        "component_index": 5
+                                    },
+                                    {
+                                        "name": "relationship",
+                                        "index": 3
+                                    },
+                                    {
+                                        "name": "street_address",
+                                        "index": 4,
+                                        "component_index": 1
+                                    },
+                                    {
+                                        "name": "other_designation",
+                                        "index": 4,
+                                        "component_index": 2
+                                    },
+                                    {
+                                        "name": "city",
+                                        "index": 4,
+                                        "component_index": 3
+                                    },
+                                    {
+                                        "name": "state",
+                                        "index": 4,
+                                        "component_index": 4
+                                    },
+                                    {
+                                        "name": "zip",
+                                        "index": 4,
+                                        "component_index": 5
+                                    },
+                                    {
+                                        "name": "phone_number",
+                                        "index": 5
+                                    },
+                                    {
+                                        "name": "business_phone_number",
+                                        "index": 6
+                                    },
+                                    {
+                                        "name": "contact_role",
+                                        "index": 7
+                                    },
+                                    {
+                                        "name": "start_date",
+                                        "index": 8
+                                    },
+                                    {
+                                        "name": "end_date",
+                                        "index": 9
+                                    },
+                                    {
+                                        "name": "next_of_kin_associated_parties_job_title",
+                                        "index": 10
+                                    },
+                                    {
+                                        "name": "next_of_kin_associated_parties_job_code_class",
+                                        "index": 11
+                                    },
+                                    {
+                                        "name": "next_of_kin_associated_parties_employee_number",
+                                        "index": 12
+                                    },
+                                    {
+                                        "name": "organization_name",
+                                        "index": 13
+                                    },
+                                    {
+                                        "name": "marital_status",
+                                        "index": 14
+                                    },
+                                    {
+                                        "name": "administrative_sex",
+                                        "index": 15
+                                    },
+                                    {
+                                        "name": "date_time_of_birth",
+                                        "index": 16
+                                    },
+                                    {
+                                        "name": "living_dependency",
+                                        "index": 17
+                                    },
+                                    {
+                                        "name": "ambulatory_status",
+                                        "index": 18
+                                    },
+                                    {
+                                        "name": "citizenship",
+                                        "index": 19
+                                    },
+                                    {
+                                        "name": "primary_language",
+                                        "index": 20
+                                    },
+                                    {
+                                        "name": "living_arrangement",
+                                        "index": 21
+                                    },
+                                    {
+                                        "name": "publicity_indicator",
+                                        "index": 22
+                                    },
+                                    {
+                                        "name": "protection_indicator",
+                                        "index": 23
+                                    },
+                                    {
+                                        "name": "student_indicator",
+                                        "index": 24
+                                    },
+                                    {
+                                        "name": "religion",
+                                        "index": 25
+                                    },
+                                    {
+                                        "name": "mothers_maiden_name",
+                                        "index": 26
+                                    },
+                                    {
+                                        "name": "nationality",
+                                        "index": 27
+                                    },
+                                    {
+                                        "name": "ethnic_group",
+                                        "index": 28
+                                    },
+                                    {
+                                        "name": "contact_reason",
+                                        "index": 29
+                                    },
+                                    {
+                                        "name": "contact_persons_name",
+                                        "index": 30
+                                    },
+                                    {
+                                        "name": "contact_persons_telephone_number",
+                                        "index": 31
+                                    },
+                                    {
+                                        "name": "contact_persons_address",
+                                        "index": 32
+                                    },
+                                    {
+                                        "name": "next_of_kin_associated_parties_identifiers",
+                                        "index": 33
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "procedures",
+                        "type": "segment_group",
+                        "child_segments": [
+                            {
+                                "name": "PR1",
+                                "min": 1,
+                                "max": -1,
+                                "elements": [
+                                    {
+                                        "name": "set_id",
+                                        "index": 1
+                                    },
+                                    {
+                                        "name": "procedure_code",
+                                        "index": 2
+                                    },
+                                    {
+                                        "name": "procedure_date_time",
+                                        "index": 3
+                                    },
+                                    {
+                                        "name": "procedure_functional_type",
+                                        "index": 4
+                                    },
+                                    {
+                                        "name": "procedure_minutes",
+                                        "index": 5
+                                    },
+                                    {
+                                        "name": "anesthesia_code",
+                                        "index": 6
+                                    },
+                                    {
+                                        "name": "anesthesia_minutes",
+                                        "index": 7
+                                    },
+                                    {
+                                        "name": "consent_code",
+                                        "index": 8
+                                    },
+                                    {
+                                        "name": "procedure_priority",
+                                        "index": 9
+                                    },
+                                    {
+                                        "name": "associated_diagnosis_code",
+                                        "index": 10
+                                    },
+                                    {
+                                        "name": "procedure_code_modifier",
+                                        "index": 11
+                                    },
+                                    {
+                                        "name": "procedure_drg_type",
+                                        "index": 12
+                                    },
+                                    {
+                                        "name": "tissue_type_code",
+                                        "index": 13
+                                    },
+                                    {
+                                        "name": "procedure_identifier",
+                                        "index": 14
+                                    },
+                                    {
+                                        "name": "procedure_action_code",
+                                        "index": 15
+                                    },
+                                    {
+                                        "name": "drg_procedure_determination_status",
+                                        "index": 16
+                                    },
+                                    {
+                                        "name": "drg_procedure_relevance",
+                                        "index": 17
+                                    },
+                                    {
+                                        "name": "treating_organizational_unit",
+                                        "index": 18
+                                    },
+                                    {
+                                        "name": "respiratory_within_surgery",
+                                        "index": 19
+                                    },
+                                    {
+                                        "name": "parent_procedure_id",
+                                        "index": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "transform_declarations": {
+        "FINAL_OUTPUT": {
+            "object": {
+                "message_header": {
+                    "object": {
+                        "encoding_characters": {
+                            "xpath": "MSH/encoding_characters"
+                        },
+                        "sending_application": {
+                            "xpath": "MSH/sending_application"
+                        },
+                        "sending_facility": {
+                            "xpath": "MSH/sending_facility"
+                        },
+                        "receiving_application": {
+                            "xpath": "MSH/receiving_application"
+                        },
+                        "receiving_facility": {
+                            "xpath": "MSH/receiving_facility"
+                        },
+                        "date_time_of_message": {
+                            "xpath": "MSH/date_time_of_message"
+                        },
+                        "security": {
+                            "xpath": "MSH/security"
+                        },
+                        "message_type": {
+                            "xpath": "MSH/message_type"
+                        },
+                        "message_trigger_event": {
+                            "xpath": "MSH/message_trigger_event"
+                        },
+                        "message_control_id": {
+                            "xpath": "MSH/message_control_id"
+                        },
+                        "processing_id": {
+                            "xpath": "MSH/processing_id"
+                        },
+                        "version_id": {
+                            "xpath": "MSH/version_id"
+                        },
+                        "sequence_number": {
+                            "xpath": "MSH/sequence_number"
+                        },
+                        "continuation_pointer": {
+                            "xpath": "MSH/continuation_pointer"
+                        },
+                        "accept_acknowledgment_type": {
+                            "xpath": "MSH/accept_acknowledgment_type"
+                        },
+                        "application_acknowledgment_type": {
+                            "xpath": "MSH/application_acknowledgment_type"
+                        },
+                        "country_code": {
+                            "xpath": "MSH/country_code"
+                        },
+                        "character_set": {
+                            "xpath": "MSH/character_set"
+                        }
+                    }
+                },
+                "user_auth": {
+                    "object": {
+                        "event_type_code": {
+                            "xpath": "UAC/user_authentication_credential_type_code"
+                        },
+                        "recorded_date_time": {
+                            "xpath": "UAC/user_authentication_credential"
+                        }
+                    }
+                },
+                "event": {
+                    "object": {
+                        "event_type_code": {
+                            "xpath": "EVN/event_type_code"
+                        },
+                        "recorded_date_time": {
+                            "xpath": "EVN/recorded_date_time"
+                        },
+                        "date_time_planned_event": {
+                            "xpath": "EVN/date_time_planned_event"
+                        },
+                        "event_reason_code": {
+                            "xpath": "EVN/event_reason_code"
+                        },
+                        "operator_id": {
+                            "xpath": "EVN/operator_id"
+                        },
+                        "event_occurred": {
+                            "xpath": "EVN/event_occurred"
+                        },
+                        "event_facility": {
+                            "xpath": "EVN/event_facility"
+                        }
+                    }
+                },
+                "patient": {
+                    "object": {
+                        "set_id_pid": {
+                            "xpath": "PID/set_id_pid"
+                        },
+                        "patient_id_external_id": {
+                            "xpath": "PID/patient_id_external_id"
+                        },
+                        "patient_id_internal_id": {
+                            "xpath": "PID/patient_id_internal_id"
+                        },
+                        "alternate_patient_id_pid": {
+                            "xpath": "PID/alternate_patient_id_pid"
+                        },
+                        "patient_name": {
+                            "xpath": "PID/patient_name"
+                        },
+                        "mothers_maiden_name": {
+                            "xpath": "PID/mothers_maiden_name"
+                        },
+                        "date_time_of_birth": {
+                            "xpath": "PID/date_time_of_birth"
+                        },
+                        "sex": {
+                            "xpath": "PID/sex"
+                        },
+                        "patient_alias": {
+                            "xpath": "PID/patient_alias"
+                        },
+                        "race": {
+                            "xpath": "PID/race"
+                        },
+                        "patient_address": {
+                            "xpath": "PID/patient_address"
+                        },
+                        "county_code": {
+                            "xpath": "PID/county_code"
+                        },
+                        "phone_number_home": {
+                            "xpath": "PID/phone_number_home"
+                        },
+                        "phone_number_business": {
+                            "xpath": "PID/phone_number_business"
+                        },
+                        "primary_language": {
+                            "xpath": "PID/primary_language"
+                        },
+                        "marital_status": {
+                            "xpath": "PID/marital_status"
+                        },
+                        "religion": {
+                            "xpath": "PID/religion"
+                        },
+                        "patient_account_number": {
+                            "xpath": "PID/patient_account_number"
+                        },
+                        "ssn_number_patient": {
+                            "xpath": "PID/ssn_number_patient"
+                        },
+                        "drivers_license_number_patient": {
+                            "xpath": "PID/drivers_license_number_patient"
+                        },
+                        "mothers_identifier": {
+                            "xpath": "PID/mothers_identifier"
+                        },
+                        "ethnic_group": {
+                            "xpath": "PID/ethnic_group"
+                        },
+                        "birth_place": {
+                            "xpath": "PID/birth_place"
+                        },
+                        "multiple_birth_indicator": {
+                            "xpath": "PID/multiple_birth_indicator"
+                        },
+                        "birth_order": {
+                            "xpath": "PID/birth_order"
+                        },
+                        "citizenship": {
+                            "xpath": "PID/citizenship"
+                        },
+                        "veterans_military_status": {
+                            "xpath": "PID/veterans_military_status"
+                        },
+                        "nationality_code": {
+                            "xpath": "PID/nationality_code"
+                        },
+                        "patient_death_date_time": {
+                            "xpath": "PID/patient_death_date_time"
+                        },
+                        "patient_death_indicator": {
+                            "xpath": "PID/patient_death_indicator"
+                        },
+                        "identity_unknown_indicator": {
+                            "xpath": "PID/identity_unknown_indicator"
+                        },
+                        "identity_reliability_code": {
+                            "xpath": "PID/identity_reliability_code"
+                        },
+                        "last_update_date_time": {
+                            "xpath": "PID/last_update_date_time"
+                        },
+                        "last_update_facility": {
+                            "xpath": "PID/last_update_facility"
+                        },
+                        "species_code": {
+                            "xpath": "PID/species_code"
+                        },
+                        "breed_code": {
+                            "xpath": "PID/breed_code"
+                        },
+                        "strain": {
+                            "xpath": "PID/strain"
+                        },
+                        "production_class_code": {
+                            "xpath": "PID/production_class_code"
+                        }
+                    }
+                },
+                "next_of_kin": {
+                    "array": [
+                        {
+                            "xpath": "next_of_kin",
+                            "object": {
+                                "set_id": {
+                                    "xpath": "NK1/set_id"
+                                },
+                                "family_name": {
+                                    "xpath": "NK1/family_name"
+                                },
+                                "given_name": {
+                                    "xpath": "NK1/given_name"
+                                },
+                                "middle_initials": {
+                                    "xpath": "NK1/middle_initials"
+                                },
+                                "prefix": {
+                                    "xpath": "NK1/prefix"
+                                },
+                                "suffix": {
+                                    "xpath": "NK1/suffix"
+                                },
+                                "relationship": {
+                                    "xpath": "NK1/relationship"
+                                },
+                                "street_address": {
+                                    "xpath": "NK1/street_address"
+                                },
+                                "other_designation": {
+                                    "xpath": "NK1/other_designation"
+                                },
+                                "city": {
+                                    "xpath": "NK1/city"
+                                },
+                                "state": {
+                                    "xpath": "NK1/state"
+                                },
+                                "zip": {
+                                    "xpath": "NK1/zip"
+                                },
+                                "phone_number": {
+                                    "xpath": "NK1/phone_number"
+                                },
+                                "business_phone_number": {
+                                    "xpath": "NK1/business_phone_number"
+                                },
+                                "contact_role": {
+                                    "xpath": "NK1/contact_role"
+                                },
+                                "start_date": {
+                                    "xpath": "NK1/start_date"
+                                },
+                                "end_date": {
+                                    "xpath": "NK1/end_date"
+                                },
+                                "next_of_kin_associated_parties_job_title": {
+                                    "xpath": "NK1/next_of_kin_associated_parties_job_title"
+                                },
+                                "next_of_kin_associated_parties_job_code_class": {
+                                    "xpath": "NK1/next_of_kin_associated_parties_job_code_class"
+                                },
+                                "next_of_kin_associated_parties_employee_number": {
+                                    "xpath": "NK1/next_of_kin_associated_parties_employee_number"
+                                },
+                                "organization_name": {
+                                    "xpath": "NK1/organization_name"
+                                },
+                                "marital_status": {
+                                    "xpath": "NK1/marital_status"
+                                },
+                                "administrative_sex": {
+                                    "xpath": "NK1/administrative_sex"
+                                },
+                                "date_time_of_birth": {
+                                    "xpath": "NK1/date_time_of_birth"
+                                },
+                                "living_dependency": {
+                                    "xpath": "NK1/living_dependency"
+                                },
+                                "ambulatory_status": {
+                                    "xpath": "NK1/ambulatory_status"
+                                },
+                                "citizenship": {
+                                    "xpath": "NK1/citizenship"
+                                },
+                                "primary_language": {
+                                    "xpath": "NK1/primary_language"
+                                },
+                                "living_arrangement": {
+                                    "xpath": "NK1/living_arrangement"
+                                },
+                                "publicity_indicator": {
+                                    "xpath": "NK1/publicity_indicator"
+                                },
+                                "protection_indicator": {
+                                    "xpath": "NK1/protection_indicator"
+                                },
+                                "student_indicator": {
+                                    "xpath": "NK1/student_indicator"
+                                },
+                                "religion": {
+                                    "xpath": "NK1/religion"
+                                },
+                                "mothers_maiden_name": {
+                                    "xpath": "NK1/mothers_maiden_name"
+                                },
+                                "nationality": {
+                                    "xpath": "NK1/nationality"
+                                },
+                                "ethnic_group": {
+                                    "xpath": "NK1/ethnic_group"
+                                },
+                                "contact_reason": {
+                                    "xpath": "NK1/contact_reason"
+                                },
+                                "contact_persons_name": {
+                                    "xpath": "NK1/contact_persons_name"
+                                },
+                                "contact_persons_telephone_number": {
+                                    "xpath": "NK1/contact_persons_telephone_number"
+                                },
+                                "contact_persons_address": {
+                                    "xpath": "NK1/contact_persons_address"
+                                },
+                                "next_of_kin_associated_parties_identifiers": {
+                                    "xpath": "NK1/next_of_kin_associated_parties_identifiers"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "procedure": {
+                    "object": {
+                        "pr1": {
+                            "array": [
+                                { 
+                                    "object": {
+                                        "set_id": {
+                                            "xpath": "PR1/set_id"
+                                        },
+                                        "procedure_code": {
+                                            "xpath": "PR1/procedure_code"
+                                        },
+                                        "procedure_date_time": {
+                                            "xpath": "PR1/procedure_date_time"
+                                        },
+                                        "procedure_functional_type": {
+                                            "xpath": "PR1/procedure_functional_type"
+                                        },
+                                        "procedure_minutes": {
+                                            "xpath": "PR1/procedure_minutes"
+                                        },
+                                        "anesthesia_code": {
+                                            "xpath": "PR1/anesthesia_code"
+                                        },
+                                        "anesthesia_minutes": {
+                                            "xpath": "PR1/anesthesia_minutes"
+                                        },
+                                        "consent_code": {
+                                            "xpath": "PR1/consent_code"
+                                        },
+                                        "procedure_priority": {
+                                            "xpath": "PR1/procedure_priority"
+                                        },
+                                        "associated_diagnosis_code": {
+                                            "xpath": "PR1/associated_diagnosis_code"
+                                        },
+                                        "procedure_code_modifier": {
+                                            "xpath": "PR1/procedure_code_modifier"
+                                        },
+                                        "procedure_drg_type": {
+                                            "xpath": "PR1/procedure_drg_type"
+                                        },
+                                        "tissue_type_code": {
+                                            "xpath": "PR1/tissue_type_code"
+                                        },
+                                        "procedure_identifier": {
+                                            "xpath": "PR1/procedure_identifier"
+                                        },
+                                        "procedure_action_code": {
+                                            "xpath": "PR1/procedure_action_code"
+                                        },
+                                        "drg_procedure_determination_status": {
+                                            "xpath": "PR1/drg_procedure_determination_status"
+                                        },
+                                        "drg_procedure_relevance": {
+                                            "xpath": "PR1/drg_procedure_relevance"
+                                        },
+                                        "treating_organizational_unit": {
+                                            "xpath": "PR1/treating_organizational_unit"
+                                        },
+                                        "respiratory_within_surgery": {
+                                            "xpath": "PR1/respiratory_within_surgery"
+                                        },
+                                        "parent_procedure_id": {
+                                            "xpath": "PR1/parent_procedure_id"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
